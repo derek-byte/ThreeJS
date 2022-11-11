@@ -72,6 +72,12 @@
                 scene.add(gltf.scene);
                 animate();
             })
+            // loader.load("blackhole/scene.gltf", function(gltf){
+            //     blackhole = gltf.scene.children[0];
+            //     blackhole.scale.set(0.5, 0.5, 0.5);
+            //     scene.add(gltf.scene);
+            //     animate();
+            // })
         }
         function animate() {
             renderer.render(scene, camera);
